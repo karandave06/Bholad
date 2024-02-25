@@ -17,8 +17,20 @@ const App = () => {
       <div className="w-full md:h-[32rem]    h-full flex md:flex-row flex-col">
         <div className="md:w-[30%]  flex   items-center justify-center w-full h-full">
           <div className="w-full   items-center justify-center md:gap-0 gap-10 h-full flex flex-col">
+            <div className="relative w-[80%]  left-0 top-0">
+              <form>
+                <div className="md:w-[80%] w-full  gap-3 flex items-center">
+                  <labe className=" text-[2rem] font-semibold">RegNo:</labe>
+                  <input className="outline-none w-full bg-transparent border-dashed border-b-[1px] border-black" />
+                </div>
+              </form>
+            </div>
             <div className="md:h-[8rem] h-[6rem] w-[6rem]  md:w-[8rem]">
-              <img src={horse} alt="horse" className="w-full h-full" />
+              <img
+                src={horse}
+                alt="horse"
+                className="w-full h-full opacity-30"
+              />
             </div>
             <div className="w-full flex gap-1 flex-col items-center justify-center md:h-[60%]  h-[10rem]">
               <img
