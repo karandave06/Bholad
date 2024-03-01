@@ -5,7 +5,7 @@ import horse from "../src/assets/horse.png";
 
 const App = () => {
   return (
-    <div className="w-full   flex-col h-screen flex items-center justify-center">
+    <div className="w-full   flex-col h-auto flex items-center justify-center">
       <div className="w-full md:h-[8rem]  bg-[#dc2915] flex flex-col items-center justify-center">
         <div className="text-[#FFEA00] font-semibold md:text-xl text-md">
           सेवा | धर्म | शौर्य{" "}
@@ -13,6 +13,11 @@ const App = () => {
         <div className="text-white font-bold md:text-4xl text-md">
           શ્રી સુરાપુરા ધામ ભોળાદ (ભાલ)
         </div>
+      </div>
+      <div className="w-full md:p-5 flex items-center justify-center">
+        <h1 className="  z-50 right-[4rem] text-4xl  font-bold text-blue-600">
+          Volunteer:-
+        </h1>
       </div>
       <div className="w-full md:h-[32rem]    h-full flex md:flex-row flex-col">
         <div className="md:w-[30%]  flex   items-center justify-center w-full h-full">
@@ -38,11 +43,7 @@ const App = () => {
                 src={profile}
                 alt="profile"
               />
-              <div>
-                <h1 className="md:text-2xl text-xl  font-bold text-red-600">
-                  Volunteer
-                </h1>
-              </div>
+              <div></div>
             </div>
           </div>
         </div>
@@ -83,6 +84,7 @@ const App = () => {
           </div>
         </div>
       </div>
+
       <div className="w-full md:h-[2rem] bg-[#dc2915]"></div>
     </div>
   );
