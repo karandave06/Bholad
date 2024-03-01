@@ -6,7 +6,7 @@ import horse from "../src/assets/horse.png";
 const App = () => {
   return (
     <div className="w-full   flex-col h-screen flex items-center justify-center">
-      <div className="w-full md:h-[8rem]  bg-red-500 flex flex-col items-center justify-center">
+      <div className="w-full md:h-[8rem]  bg-[#dc2915] flex flex-col items-center justify-center">
         <div className="text-[#FFEA00] font-semibold md:text-xl text-md">
           सेवा | धर्म | शौर्य{" "}
         </div>
@@ -21,11 +21,11 @@ const App = () => {
               <form>
                 <div className="md:w-[80%] w-full  gap-3 flex items-center">
                   <labe className=" text-[2rem] font-semibold">RegNo:</labe>
-                  <input className="outline-none w-full bg-transparent border-dashed border-b-[1px] border-black" />
+                  <input className="outline-none text-2xl font-bold w-full bg-transparent border-dashed border-b-[1px] border-black" />
                 </div>
               </form>
             </div>
-            <div className="md:h-[8rem] h-[6rem] w-[6rem]  md:w-[8rem]">
+            <div className="md:h-[8rem] h-[6rem] w-[6rem]red  md:w-[8rem]">
               <img
                 src={horse}
                 alt="horse"
@@ -51,30 +51,30 @@ const App = () => {
           <form className="absolute md:w-[80%]   flex-col z-50 left-0 md:top-0 top-5   h-full flex items-center md:justify-between md:p-10 gap-5 p-5">
             <div className="md:w-[80%] w-full gap-3 flex items-center">
               <labe className=" text-[2rem]   font-semibold">Name:</labe>
-              <input className="outline-none w-full bg-transparent border-dashed border-b-[1px] border-black" />
+              <input className="outline-none text-2xl font-bold w-full bg-transparent border-dashed border-b-[1px] border-black" />
             </div>
 
             <div className="md:w-[80%] w-full  gap-3 flex items-center">
               <labe className=" text-[2rem] font-semibold">Village/City:</labe>
-              <input className="outline-none w-full bg-transparent border-dashed border-b-[1px] border-black" />
+              <input className="outline-none text-2xl font-bold w-full bg-transparent border-dashed border-b-[1px] border-black" />
             </div>
 
             <div className="md:w-[80%] w-full  gap-3 flex items-center">
               <labe className=" text-[2rem] font-semibold">Day:</labe>
-              <input className="outline-none w-full bg-transparent border-dashed border-b-[1px] border-black" />
+              <input className="outline-none text-2xl font-bold w-full bg-transparent border-dashed border-b-[1px] border-black" />
             </div>
 
             <div className="md:w-[80%] w-full  gap-3 flex items-center">
               <labe className=" text-[2rem] font-semibold">Shift:</labe>
-              <input className="outline-none w-full bg-transparent border-dashed border-b-[1px] border-black" />
+              <input className="outline-none text-2xl font-bold w-full bg-transparent border-dashed border-b-[1px] border-black" />
             </div>
 
             <div className="md:w-[80%] w-full  gap-3 flex items-center">
               <labe className=" text-[2rem] font-semibold">Sign:</labe>
-              <input className="outline-none w-full bg-transparent border-dashed border-b-[1px] border-black" />
+              <input className="outline-none text-2xl font-bold w-full bg-transparent border-dashed border-b-[1px] border-black" />
             </div>
           </form>
-          <div className="md:w-[28rem] w-[22rem] h-[22rem]  md:h-[28rem]">
+          <div className="md:w-[20rem] md:-ml-[10rem] w-[18rem] h-[18rem]  md:h-[20rem]">
             <img
               src={logo}
               className="w-full opacity-20 bg-cover"
@@ -83,7 +83,7 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div className="w-full md:h-[2rem] bg-red-500"></div>
+      <div className="w-full md:h-[2rem] bg-[#dc2915]"></div>
     </div>
   );
 };
